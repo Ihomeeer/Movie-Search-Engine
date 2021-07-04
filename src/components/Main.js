@@ -1,3 +1,4 @@
+//ФК, отвечающий за рендер карточек с фильмами, и возвращающий разметку поисковой строки и карточек
 import React from 'react';
 import Card from './Card';
 
@@ -7,12 +8,12 @@ function Main({movies, onSubmit, openInfo, showError}) {
   const [movieValue, setMovieValue] = React.useState("");
 
   function handleMovieChange(e) {
-    setMovieValue(e.target.value)
+    setMovieValue(e.target.value);
   }
 
   function handleSubmit(e) {
     e.preventDefault();
-    onSubmit(movieValue)
+    onSubmit(movieValue);
   }
 
   React.useEffect(() => {

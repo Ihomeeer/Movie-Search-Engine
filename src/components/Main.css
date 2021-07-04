@@ -31,7 +31,7 @@
   border-top: none;
   border-left: none;
   border-right: none;
-  border-color: rosybrown;
+  border-color: salmon;
   outline: none;
 }
 
@@ -40,9 +40,26 @@
   height: 36px;
   margin: 10px auto 20px;
   padding: 0;
-  background-color:rgba(188, 143, 143, 0.356);
-  border: none;
-  outline: none;
+  border: 2px solid salmon;
+  outline: 2px solid salmon;
+  outline-offset: 4px;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.main__search-button:hover {
+  outline-offset: -8px;
+  background-color: salmon;
+}
+
+.main__search-button:nth-child(2) {
+  outline-offset: -4px;
+  transition: all .4s;
+}
+
+.main__search-button:nth-child(2):hover {
+  outline-offset: 4px;
+  color: white;
 }
 
 .main__grid {

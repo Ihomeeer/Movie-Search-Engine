@@ -1,8 +1,8 @@
+//ФК, отвечающий за рендер модалки с расширенной инфой
+
 import React from 'react';
 
-
 function ModalWithInfo(props) {
-
 
   return (
     <div onClick={props.onClose} className={`info__wrapper ${props.isOpen ? 'info__wrapper_active' : "" }`}>
