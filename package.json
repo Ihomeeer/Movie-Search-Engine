@@ -20,6 +20,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ihomeeer/Movie-Search-Engine.git"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
