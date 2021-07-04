@@ -1,0 +1,9 @@
+.header__title {
+  font-size: 70px;
+  margin: 0;
+}
+
+.header__subtitle {
+  font-size: 12px;
+  margin: 0 auto 20px;
+}
