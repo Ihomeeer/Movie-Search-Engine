@@ -1,4 +1,4 @@
-# Film Search Engine
+# Movie Search Engine
 
 ## Описание
 FSE - небольшой проект, который позволяет искать фильмы по названию.
