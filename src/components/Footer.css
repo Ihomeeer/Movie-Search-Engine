@@ -6,3 +6,13 @@
   line-height: 22px;
   color: #545454;
 }
+
+.footer__gratitude {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #545454;
+  text-align: center;
+}
