@@ -1,5 +1,6 @@
 .card {
   max-width: 284px;
+  margin: auto;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -9,8 +10,8 @@
 }
 
 .card__photo {
-  width: 284px;
-  height: 420px;
+  width: 260px;
+  height: 380px;
   border-radius: 10px;
   object-fit: cover;
 }
