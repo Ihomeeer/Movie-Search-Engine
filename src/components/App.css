@@ -1,7 +1,16 @@
+.page {
+  background: url(../images/pattern.png);
+  background-size: inherit;
+  height: 100%;
+  width: 100%;
+}
+
 .App {
   min-width: 320px;
-  max-width: 2560px;
-  margin: 0 auto;
+  width: 90%;
+  max-width: 1920px;
+  height: 100%;
+  margin: 60px auto 40px;
   font-family: "Inter", Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -12,5 +21,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:white;
+  border-radius: 30px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }

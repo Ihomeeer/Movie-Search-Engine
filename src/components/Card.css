@@ -1,25 +1,28 @@
 .card {
-  max-width: 100%;
+  max-width: 284px;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .card__photo {
   width: 284px;
   height: 420px;
-  object-fit: contain;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .card__name {
   width: 100%;
-  margin: 0;
+  margin: 10px 0 0;
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
   line-height: 24px;
+  color: #413e3e;
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -27,13 +30,14 @@
 }
 
 .card__info {
-  width: 100%;
+  width: 80%;
   margin: 0;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  background-color: white;
+  color: #413e3e;
+  background-color: transparent;
   border: none;
   outline: none;
   cursor: pointer;

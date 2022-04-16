@@ -15,9 +15,14 @@ class Api {
     return Promise.reject(`Ошибка: ${res.status}`);
   }
 
-  //получение информации о фильмах с сервера
+  //получение информации о фильмах с сервера (дефолтная, первая страница, для кнопки 'search')
   getMovies(title) {
     return fetch(`${this._baseUrl}?s=${title}&apikey=${this._authorization}`)
+    .then(res => this._checkStatus(res));
+  }
+
+  getMoviesPage(title, pageNumber) {
+    return fetch(`${this._baseUrl}?s=${title}&apikey=${this._authorization}&page=${pageNumber}`)
     .then(res => this._checkStatus(res));
   }
 

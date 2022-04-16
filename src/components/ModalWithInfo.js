@@ -1,6 +1,6 @@
-//ФК, отвечающий за рендер модалки с расширенной инфой
-
+//ФК, отвечающий за рендер модалки с расширенной инфой\
 import React from 'react';
+import imageNotFoundPath from "../images/notFound.png"
 
 function ModalWithInfo(props) {
 
@@ -15,7 +15,7 @@ function ModalWithInfo(props) {
           <h2  className="info__caption">Description:</h2>
           <p name="infoAbout" className="info__text info__about">{props.data.Plot}</p>
         </div>
-      <img className="info__poster" src={props.data.Poster} alt={props.data.Title}/>
+      <img className="info__poster" src={props.data.Poster === "N/A" ? imageNotFoundPath : props.data.Poster} alt={props.data.Title}/>
       </div>
     </div>
   )
