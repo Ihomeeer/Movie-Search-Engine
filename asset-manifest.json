@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Movie-Search-Engine/static/css/main.e6226686.chunk.css",
+    "main.css": "/Movie-Search-Engine/static/css/main.75882567.chunk.css",
     "main.js": "/Movie-Search-Engine/static/js/main.504c7b35.chunk.js",
     "main.js.map": "/Movie-Search-Engine/static/js/main.504c7b35.chunk.js.map",
     "runtime-main.js": "/Movie-Search-Engine/static/js/runtime-main.af21b691.js",
@@ -10,7 +10,7 @@
     "static/js/3.af95cfa0.chunk.js": "/Movie-Search-Engine/static/js/3.af95cfa0.chunk.js",
     "static/js/3.af95cfa0.chunk.js.map": "/Movie-Search-Engine/static/js/3.af95cfa0.chunk.js.map",
     "index.html": "/Movie-Search-Engine/index.html",
-    "static/css/main.e6226686.chunk.css.map": "/Movie-Search-Engine/static/css/main.e6226686.chunk.css.map",
+    "static/css/main.75882567.chunk.css.map": "/Movie-Search-Engine/static/css/main.75882567.chunk.css.map",
     "static/js/2.0a4c6f89.chunk.js.LICENSE.txt": "/Movie-Search-Engine/static/js/2.0a4c6f89.chunk.js.LICENSE.txt",
     "static/media/logo.460afd90.svg": "/Movie-Search-Engine/static/media/logo.460afd90.svg",
     "static/media/notFound.0d61eb5c.png": "/Movie-Search-Engine/static/media/notFound.0d61eb5c.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.af21b691.js",
     "static/js/2.0a4c6f89.chunk.js",
-    "static/css/main.e6226686.chunk.css",
+    "static/css/main.75882567.chunk.css",
     "static/js/main.504c7b35.chunk.js"
   ]
 }
