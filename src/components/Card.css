@@ -16,6 +16,13 @@
   object-fit: cover;
 }
 
+.card__notFound {
+  width: 260px;
+  height: 380px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
 .card__name {
   width: 100%;
   margin: 10px 0 0;
